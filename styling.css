@@ -96,14 +96,8 @@ nav{
 }
 
 
+
 @media screen and (max-width:1024px){
-    .nav-links{
-        width: 60%;
-    }
-}
-
-
-@media screen and (max-width:768px){
     body{overflow-x: hidden;}
     .nav-links{
         position: absolute;
@@ -466,7 +460,7 @@ nav{
     margin: 0px;
     bottom: -7px;
     left: 0px;
-    width: 200px;
+    width: 160px;
     height: 4px;
     background-color: black;
 }
@@ -522,10 +516,33 @@ nav{
     font-size: 20px;
 }
 
+
 @media (max-width:1024px){
+
+    .contact {
+        padding: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
     .contact .firstpart{
         display: grid;
         font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        text-overflow: clip;
+        object-fit: cover;
+        align-items: center;
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .contact .firstpart .left{
+        display: inline-grid;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact .firstpart .left img{
+        height: 400px;
+        justify-content: center;
     }
 }
 
@@ -648,12 +665,30 @@ nav{
     margin-bottom: 50px;
 }
 
+
+.bell hr img {
+    height: 352px;
+}
+
 .bell .image .link {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+@media (max-width:1024px){
+    .bell hr {
+        display: none;
+    }
 
+    .bell img {
+        height: 300px;
+    }
+
+    .bell .image .link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
 
 /* FOOTER SECTION */
 
