@@ -101,7 +101,7 @@ nav{
 @media screen and (max-width:1024px){
     html,body{overflow-x: hidden;}
     .nav-links{
-        position: fixed;
+        position: absolute;
         z-index:999;
         right: 0px;
         height: 92vh;
@@ -233,7 +233,7 @@ nav{
         text-align: justify;
         font-size: 20px;
         font-weight: 500;
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 10px;
         margin-right: 30px;
     
@@ -535,14 +535,20 @@ nav{
         width: 100%;
     }
 
+    .contact .firstpart {
+        padding-right: 10px;
+    }
+
     .contact .firstpart .left{
         display: inline-grid;
         align-items: center;
         justify-content: center;
+        padding-bottom: 40px;
     }
 
     .contact .firstpart .left img{
-        height: 400px;
+        padding-top: 40px;
+        height: 380px;
         justify-content: center;
     }
 }
@@ -715,5 +721,20 @@ nav{
 @media (max-width:877px){
     .footer {
         display: grid;
+    }
+
+    .footer .left{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .footer .middle{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer .logo{
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
