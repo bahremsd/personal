@@ -99,13 +99,13 @@ nav{
 
 
 @media screen and (max-width:1024px){
-    body{overflow-x: hidden;}
+    html,body{overflow-x: hidden;}
     .nav-links{
         position: fixed;
         z-index:999;
         right: 0px;
         height: 92vh;
-        top: 8vh;
+        top: 16vh;
         background-color: #101046;
         opacity: 1;
         display: flex;
