@@ -104,7 +104,7 @@ nav{
         position:fixed;
         z-index:999;
         right: 0px;
-        height: 50vh;
+        height: 40vh;
         top: 16vh;
         background-color: #101046;
         opacity: 1;
@@ -113,6 +113,8 @@ nav{
         align-items: center;
         width: 60%;
         transform: translateX(100%);
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
 
     .nav-links li{
