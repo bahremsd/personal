@@ -742,6 +742,10 @@ nav{
         padding-bottom: 30px;
     }
 
+    .footer .left .name {
+        display: flex;
+    }
+
     .footer .middle{
         padding-top: 30px;
         padding-bottom: 30px;
