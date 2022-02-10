@@ -101,10 +101,10 @@ nav{
 @media screen and (max-width:1024px){
     html, body{overflow-x: hidden;}
     .nav-links{
-        position:fixed;
+        position:absolute;
         z-index:999;
         right: 0px;
-        height: 40vh;
+        height: 50vh;
         top: 16vh;
         background-color: #101046;
         opacity: 1;
@@ -113,8 +113,8 @@ nav{
         align-items: center;
         width: 60%;
         transform: translateX(100%);
-        padding-top: 0px;
-        padding-bottom: 0px;
+        padding-top: 3px;
+        padding-bottom: 3px;
     }
 
     .nav-links li{
