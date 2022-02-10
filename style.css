@@ -101,7 +101,7 @@ nav{
 @media screen and (max-width:1024px){
     html, body{overflow-x: hidden;}
     .nav-links{
-        position:absolute;
+        position:fixed;
         z-index:999;
         right: 0px;
         height: 50vh;
@@ -479,8 +479,8 @@ nav{
 }
 
 .contact .firstpart .info .p2{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 120px;
+    margin-bottom: 80px;
 }
 
 .contact .firstpart .info .p3{
@@ -537,6 +537,11 @@ nav{
         width: 100%;
     }
 
+    .contact .firstpart .info .p2{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .contact .firstpart {
         padding-right: 0px;
     }
@@ -571,7 +576,7 @@ nav{
     margin: 0px;
     bottom: -7px;
     left: 0px;
-    width: 200px;
+    width: 240px;
     height: 3px;
     background-color: black;
 }
@@ -724,10 +729,11 @@ nav{
     margin-left: 5px;
 }
 
+
 .footer .left .name {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -742,10 +748,12 @@ nav{
     .footer .left{
         padding-top: 20px;
         padding-bottom: 30px;
+        text-align: center;
     }
 
     .footer .left .name {
         display: flex;
+        justify-content: center;
     }
 
     .footer .middle{
