@@ -553,6 +553,10 @@ nav{
         padding-bottom: 40px;
     }
 
+    .contact .firstpart .info p{
+        font-size: 20px;
+    }
+
     .contact .firstpart .left img{
         padding-top: 40px;
         height: 380px;
